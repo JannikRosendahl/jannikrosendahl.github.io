@@ -1,10 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Page Title</title>
     </head>
     <body>
         <h1>This is a Heading</h1>
         <p>This is a paragraph.</p>
+        <script>
+            function func1(arg) {
+                console.log('1' + arg)
+            }
+            function func2(arg) {
+                console.log('2' + arg)
+            }
+
+            function func(fun) {
+                fun('arg');
+            }
+            func(func1)
+            console.log('test')
+        </script>
     </body>
 </html>
